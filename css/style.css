@@ -230,6 +230,7 @@ h1, h2, h3, h4, h5, h6, figure {
 @media screen and (max-width: 992px) {
   #ah-features .feature-left {
     margin-bottom: 30px;
+    width: 100%;
   }
 }
 #ah-features .feature-left .icon {

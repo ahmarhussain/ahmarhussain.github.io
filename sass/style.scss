@@ -308,6 +308,7 @@ h1, h2, h3, h4, h5, h6, figure {
 		float: left;
 		@media screen and (max-width: $screen-md) {
 			margin-bottom: 30px;
+			width: 100%;
 		}
 		.icon {
 			display: table;
