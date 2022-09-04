@@ -845,7 +845,7 @@ h1, h2, h3, h4, h5, h6, figure {
 		padding: 0;
 		list-style: none;
 		display: flex;
-		width: 100px;
+		width: 130px;
 		justify-content: space-between;
 		margin: auto;
 
@@ -1104,7 +1104,8 @@ input[type="text"] {
 		width: 50px;
 		height: 50px;
 		display: table;
-		background: rgba(0,0,0,.8);
+		// background: rgba(0,0,0,.8);
+		@include gradient();
 		color: $brand-white;
 		text-align: center;
 		@include border-radius(50%);
