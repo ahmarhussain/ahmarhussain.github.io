@@ -179,8 +179,8 @@ h1, h2, h3, h4, h5, h6, figure {
 }
 
 
-#fh5co-header,
-.fh5co-cover {
+#ah-header,
+.ah-cover {
 	background-color: transparent;
 	background-size: cover;
 	background-attachment: fixed;
@@ -282,7 +282,7 @@ h1, h2, h3, h4, h5, h6, figure {
 			// border: 1px solid rgba($brand-white,1);
 			@include border-radius(50%);
 		}
-		.fh5co-social-icons {
+		.ah-social-icons {
 			li {
 				a {
 					i {
@@ -295,7 +295,7 @@ h1, h2, h3, h4, h5, h6, figure {
 }
 
 
-#fh5co-features {
+#ah-features {
 	@include gradient();
 	h2 {
 		color: $brand-white;
@@ -348,31 +348,31 @@ h1, h2, h3, h4, h5, h6, figure {
 }
 
 
-#fh5co-about,
-#fh5co-resume,
-#fh5co-skills,
-#fh5co-started,
-#fh5co-work,
-#fh5co-blog,
-#fh5co-pricing,
-#fh5co-contact{
+#ah-about,
+#ah-resume,
+#ah-skills,
+#ah-started,
+#ah-work,
+#ah-blog,
+#ah-pricing,
+#ah-contact{
 	padding: 7em 0;
 	clear: both;
 	@media screen and (max-width: $screen-sm) {
 		padding: 3em 0;
 	}
 }
-#fh5co-started{
+#ah-started{
 	border-bottom: none;
 }
 
-.fh5co-bg-color{
+.ah-bg-color{
 	// background: #233142;
 }
 
-.fh5co-bg-dark{
+.ah-bg-dark{
 	@include gradient();
-	.fh5co-heading{
+	.ah-heading{
 		h2{
 			color: $brand-white !important;
 		}
@@ -410,7 +410,7 @@ h1, h2, h3, h4, h5, h6, figure {
 	}
 }
 
-.fh5co-social-icons {
+.ah-social-icons {
 	margin: 0;
 	padding: 0;
 	li {
@@ -440,8 +440,8 @@ h1, h2, h3, h4, h5, h6, figure {
 	}
 }
 
-#fh5co-about{
-	.fh5co-social-icons {
+#ah-about{
+	.ah-social-icons {
 		margin: 0;
 		padding: 0;
 		li {
@@ -467,9 +467,9 @@ h1, h2, h3, h4, h5, h6, figure {
 }
 
 
-.fh5co-heading {
+.ah-heading {
 	margin-bottom: 5em;
-	&.fh5co-heading-sm {
+	&.ah-heading-sm {
 		margin-bottom: 2em;
 	}
 	h2 {
@@ -822,14 +822,14 @@ h1, h2, h3, h4, h5, h6, figure {
 	}
 }
 
-#fh5co-started {
+#ah-started {
 	background-size: cover;
 	background-position: center center;
 	background-repeat: no-repeat;
 	position: relative;
 	float: left;
 	width: 100%;
-	.fh5co-heading {
+	.ah-heading {
 		margin-bottom: 0;
 		h2 {
 			color: $brand-white;
@@ -875,7 +875,7 @@ h1, h2, h3, h4, h5, h6, figure {
 //PRICING
 
 // BLOG
-.fh5co-blog{
+.ah-blog{
 	width: 100%;
 	float: left;
 	margin-bottom: 40px;
@@ -965,7 +965,7 @@ h1, h2, h3, h4, h5, h6, figure {
 }
 
 
-#fh5co-consult{
+#ah-consult{
 	@include flex();
 	@include flexwrap();
 	width: 100%;
@@ -998,7 +998,7 @@ h1, h2, h3, h4, h5, h6, figure {
 		}
 	}
 }
-.fh5co-video {
+.ah-video {
 	overflow: hidden;
 	@media screen and (max-width: $screen-md){
 		height: 450px;
@@ -1015,7 +1015,7 @@ h1, h2, h3, h4, h5, h6, figure {
 }
 
 
-#fh5co-footer {
+#ah-footer {
 	padding: 50px 0;
 	float: left;
 	width: 100%;
@@ -1297,7 +1297,7 @@ input[type="text"] {
    margin: 0px !important;
 }
 
-.fh5co-loader {
+.ah-loader {
 	position: fixed;
 	left: 0px;
 	top: 0px;
